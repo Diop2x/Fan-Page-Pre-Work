@@ -1,0 +1,93 @@
+<style>
+
+html {
+    height: 100%;
+}
+body {
+    background-image: url(https://pbs.twimg.com/media/Dc4UVf-W4AE18vz.jpg);
+    font-family: 'Roboto Condensed', sans-serif;
+}
+h1 {
+    text-align: center;
+    text-decoration: underline;
+}
+#styledimage {
+    border-style: solid;
+    border-width: medium;
+    border-color: black;
+    margin: 0 auto;
+    width: 25%;
+    display: block;
+}
+#styledlogo {
+    margin: 0 auto;
+    width: 25%;
+    display: block;
+}
+p.bio1 {
+    text-indent: 2%;
+    color: white;
+    margin: 0 20px 0 20px;
+    text-align: justify;
+    letter-spacing: 0.012em;
+    font-size: 16px;
+    line-height: 1.5;
+
+}
+h2 {
+    text-align: center;
+    font-style: oblique;
+    text-decoration: underline;
+    color: white;
+}
+#vid {
+    margin: .06px auto;
+    display: block;
+}
+#bod {
+    background-color: black;
+    background-position: center;
+    width: 600px;
+    height: 1095px;
+    margin: 0 auto;
+}
+div.multi {
+    padding-left: 2%;
+}
+div.midtext {
+    text-align: center;
+}
+#list {
+    font-weight: bold;
+    list-style-position: inside;
+     padding-right: 10%;
+    list-style-type: none;
+    color: white;
+}
+#list > li::before {
+    content: '';   
+    display: inline-block;   
+    height: 45px;   
+    width: 25px;    
+    background-size: 20px;   
+    background-image: url("https://flaticons.net/gd/makefg.php?i=icons/Brand%20Identity/Playboy.png&r=255&g=255&b=255");
+    background-repeat: no-repeat;   
+    margin-right: 10px;
+    background-position: center center;
+    vertical-align: middle;
+}
+a.wiki {
+    color:red;  
+}
+img.sideimg {
+    height: 130px;
+    width: 130px;
+    float: left;
+    margin:0 0 5px 5px;
+}
+img.sideimg2 {
+    height: 130px;
+    width: 130px;
+    float: right;
+    margin: 5px 5px 0 0;
+}
